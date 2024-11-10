@@ -1,0 +1,131 @@
+body, html {
+    margin: 0;
+    height: 100vh; 
+    background-image: url('https://image.slidesdocs.com/responsive-images/background/white-colorful-tropical-ocean-marine-coral-abstract-texture-powerpoint-background_8493616643__960_540.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@keyframes Shark {
+    0%{left: 100px;top:400px;}
+    25%{left: 300px; top:200px;}
+    40%{left: 500px; top: 300px;}
+    50%{left: 600px;top:300px;}
+    60%{left: 300px;top:200px;}
+    80%{left: 500px; top: 200px;}
+    100%{left: 100px;top:400px;transform:scaleX(-1);}
+        }
+
+#shark{
+    left: 100px; top: 400px;
+    position: absolute;
+    animation-name: Shark;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes turtle {
+    0%{left: 100px;top:400px;}
+    25%{left: 300px; top:200px;}
+    40%{left: 500px; top: 300px;}
+    50%{left: 600px;top:300px;}
+    60%{left: 300px;top:200px;}
+    80%{left: 500px; top: 200px;}
+    100%{left: 100px;top:400px;transform:scaleX(-1);}
+        }
+
+
+#turtle{
+    left: 100px; top: 400px;
+    position: absolute;
+    animation-name: turtle; 
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Fish{
+    0%{right: 100px; top: 400px;}
+    25%{right: 300px; top:200px}
+    40%{right: 500px;top: 300px}
+    50%{right: 600px; top: 300px;}
+    60%{right: 300px; top: 200px;}
+    80%{right: 500px; top: 200px;}
+    100%{right: 100px; top: 400px; transform: scaleX(-1);}
+}
+#fish{
+    right: 100px; top: 400px;
+    position: absolute;
+    animation-name: Fish; 
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+#nen{
+    right: 100px; top: 400px;
+    position: absolute;
+    animation-name: nen; 
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Fish1{
+    0%{right: 100px; top: 400px;}
+    25%{right: 300px; top:200px}
+    40%{right: 500px;top: 300px}
+    50%{right: 600px; top: 300px;}
+    60%{right: 300px; top: 200px;}
+    80%{right: 500px; top: 200px;}
+    100%{right: 100px; top: 400px; transform: scaleX(-1);}
+}
+#fish1{
+    right: 100px; top: 400px;
+    position: absolute;
+    animation-name: Fish1; 
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@keyframes Fish2 {
+    0%{left: 100px;top:400px;}
+    25%{left: 300px; top:200px;}
+    40%{left: 500px; top: 300px;}
+    50%{left: 600px;top:300px;}
+    60%{left: 300px;top:200px;}
+    80%{left: 500px; top: 200px;}
+    100%{left: 100px;top:400px;transform:scaleX(-1);}
+        }
+
+#fish2{
+    left: 100px; top: 400px;
+    position: absolute;
+    animation-name: Fish2;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Ca {
+    0%{left: 100px;top:400px;}
+    25%{left: 300px; top:200px;}
+    40%{left: 500px; top: 300px;}
+    50%{left: 600px;top:300px;}
+    60%{left: 300px;top:200px;}
+    80%{left: 500px; top: 200px;}
+    100%{left: 100px;top:400px;transform:scaleX(-1);}
+        }
+
+#ca{
+    left: 100px; top: 400px;
+    position: absolute;
+    animation-name: Ca;
+    animation-duration: 22s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
